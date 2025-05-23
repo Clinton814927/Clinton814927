@@ -1,4 +1,4 @@
-#Deba.Tech
+#Question on Diba Tech
 1. What  is HTML--Hypertext mark-up language
  2. Why is it's important ---> Importance of HTML--Html is importance because it's provided the foundations of buildings websites and webs applications.
 It's also provided the basics structure
