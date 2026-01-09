@@ -1,0 +1,17 @@
+1. HTML parsing and DOM construction: The browser parses HTML into a DOM tree.
+2. CSS parsing and Render Tree formation: CSS is parsed to create the CSSOM,
+combined with the DOM to form the Render Tree. 3. Layout (Reflow): The browser
+calculates positions and sizes of elements. 4. Painting: Elements are drawn on
+the screen. 5.JavaScript execution and blocking rendering: JS can block
+rendering if not async/deferred. 6. DOM manipulation performance optimization:
+Batch DOM updates to minimize reflows. 7. Real-world performance optimization:
+Use will-change for animations. Question 2: JavaScript Execution Model & State
+Management Explain how JavaScript handles asynchronous operations in the
+browser. JavaScript async model 1. Call Stack & Event Loop: JS uses a
+single-threaded call stack + event loop for async tasks. 2. Web APIs & Callback
+Queue: Async tasks (e.g., fetch) are handled by Web APIs and queued. 3.
+Microtask Queue: Promises use the microtask queue (higher priority than
+callbacks). 4. Promises vs async/await: async/await is syntactic sugar for
+promises. 5. Blocking operations & race conditions: Avoid blocking the main
+thread; handle async errors. 6. Memory leaks: Clean up event listeners to
+prevent leaks. 7. State management:
